@@ -10,7 +10,7 @@ You also need to add the upstream to your git. From your local checkout of your 
 
 `git remote add upstream git://github.com/upstream_user/repo.git`
 
-For more, see [Setup.md](/docs/Setup.md).
+For more, see [Setup.md](/doc/Setup.md).
 
 # Operation
 
