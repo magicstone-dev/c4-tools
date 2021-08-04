@@ -3,9 +3,12 @@
 
 FORGE_URL=https://github.com
 
-# username that owns the c4 repo
+# username that owns c4 repo
 FORGE_USER=somebody
  
+# username that owns upstream repo
+FORGE_UPSTREAM_USER=somebody
+
 FORGE_REPO=someproject
 
 # branch to merge into

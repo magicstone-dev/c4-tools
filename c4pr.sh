@@ -24,3 +24,6 @@ echo "**************************************************************************
 echo "*  Here's a better link to create a PR:"
 echo "*    $FORGE_URL/$FORGE_USER/$FORGE_REPO/compare/$FORGE_C4_BRANCH...$FORGE_USER:$2" 
 echo "*********************************************************************************"
+echo "*  And a link to the source PR:"
+echo "*    $FORGE_URL/$FORGE_UPSTREAM_USER/$FORGE_REPO/pull/$1"
+echo "*********************************************************************************"
