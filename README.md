@@ -8,7 +8,9 @@ Scripts and documentation for creating a C4-based fork
 
 You also need to add the upstream to your git. From your local checkout of your fork:
 
-`git remote add upstream git://github.com/upstream_user/repo.git` 
+`git remote add upstream git://github.com/upstream_user/repo.git`
+
+For more, see [Setup.md](/docs/Setup.md).
 
 # Operation
 
