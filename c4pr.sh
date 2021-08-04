@@ -18,6 +18,17 @@ git pull upstream pull/$1/head:$2
 git checkout $2
 git fetch upstream
 git merge upstream/main 
+
+if [ $? -ne 0 ]; then
+    git merge --abort
+    echo "Merge failed and aborted."
+    echo "*********************************************************************************"
+    echo "*  Here's a link to the source PR:"
+    echo "*    $FORGE_URL/$FORGE_UPSTREAM_USER/$FORGE_REPO/pull/$1"
+    echo "*********************************************************************************"
+    exit 1  
+fi
+
 git push origin $2
 
 echo "*********************************************************************************"
