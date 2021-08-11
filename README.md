@@ -17,3 +17,7 @@ For more, see [Setup.md](/doc/Setup.md).
 Run `c4pr.sh` from your project folder to copy PRs from upstream to your fork.
 
 You may be asked to confirm a merge commit message which is normal.
+
+## Contributing
+
+This project uses [C4(Collective Code Construction Contract)](https://rfc.zeromq.org/spec:42/C4/) process for contributions.
