@@ -13,21 +13,23 @@ The next step therefore was to try out C4 on a new project and for this exercise
 Currently, this project contains scripts and documentation for creating a C4-based fork.
 
 # Installation
-1. Copy `c4.conf.sample` to `c4.conf`
-2. Edit `c4.conf` to fill in your project details
-3. Copy `c4.conf` and `c4pr.sh` to your path (i.e. ~/bin)
+1. Copy `sample.c4.yml` to `.c4.yml` and put it at the root of your checked-out code.
+2. Edit `.c4.yml` to fill in user and project details
+3. Copy `c4pr.sh` to your path (i.e. ~/bin)
 
 You also need to add the upstream to your git. From your local checkout of your fork:
 
-`git remote add upstream git://github.com/upstream_user/repo.git`
+`git remote add upstream git://github.com/upstream_user/upstream_repo.git` 
 
 For more, see [Setup.md](/doc/Setup.md).
 
 # Operation
 
-Run `c4pr.sh` from your project folder to copy PRs from upstream to your fork.
+Run `c4pr.sh` from the root of your project folder to copy PRs from upstream to your fork.
 
-You may be asked to confirm a merge commit message which is normal.
+Ex. `c4pr.sh 1234 desired-branch-name`
+
+You may be asked to confirm a couple of merge commit messages which is normal.
 
 ## Contributing
 

@@ -1,0 +1,10 @@
+forge: "https://github.com"
+forge_user: "your_user"
+upstream:
+  owner: "githubuser"
+  repository: "repo"
+  branch: "main"
+c4:
+  owner: "c4_org_or_user"
+  repository: "repo"
+  branch: "main"
