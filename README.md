@@ -1,4 +1,4 @@
-# c4-tools
+# C4-tools
 
 Welcome and thank you for visiting C4-tools.
 
