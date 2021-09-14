@@ -56,6 +56,6 @@ echo "**************************************************************************
 echo "*  Here's a better link to create a PR:"
 echo "*    $forge/$c4_owner/$c4_repository/compare/$c4_branch...$forge_user:$2"
 echo "*********************************************************************************"
-echo "*  And a link to the source PR:"
+echo "*  And a link to the source PR ( UpstreamPR$1 ):"
 echo "*    $forge/$upstream_owner/$upstream_repository/pull/$1"
 echo "*********************************************************************************"
